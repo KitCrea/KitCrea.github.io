@@ -11,7 +11,6 @@ require.config({
 console.log(require)
 
 require(["express"], function (express) {
-    const express = require('express');
     const app = express();
 
     app.use(express.json());
